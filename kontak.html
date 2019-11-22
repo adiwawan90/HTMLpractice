@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #form_contact input[type=text], input[type=password], input[type=email] {
+            width: 500px;
+            height: 30px;
+        }
+        #form_contact textarea {
+            width: 500px;
+            height: 100px
+        }
+        #form_contact input[type=submit], input[type=reset] {
+            padding: 5px
+        }
+        .map{
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="top"></div>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo_baba.png">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="menu"><a href="index.html">Home</a></li>
+                    <li class="menu"><a href="service.html">Service</a></li>
+                    <li class="menu"><a href="gallery.html">Gallery</a></li>
+                    <li class="menu"><a href="kontak.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end navbar -->
+        
+        <div class="content">
+            <h1 id="name-con">Contact</h1>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126919.98034704609!2d106.63553987365049!3d-6.230818030998438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fbf617855555%3A0x499c259b6b3d813a!2sKampus%20Babastudio%20-%20Tangerang.%20Kursus%20web%2C%20SEO%2C%20Internet%20marketing!5e0!3m2!1sid!2sid!4v1574436111365!5m2!1sid!2sid" width="1150" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <h3>View <a href="https://goo.gl/maps/riDADH8qT5r1AMDi8">Kampus Babastudio - Tangerang. Kursus web, SEO, Internet marketing</a> In a larger Map</h3>
+                <!-- end of map -->
+            <form id="form_contact" action="" method="post">
+                <table cellspacing="20">
+                    <tr>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td><input type="text" id="fullname" name="fullname" placeholder="name"></td>
+                    </tr>
+                    <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="email" id="email" name="email" placeholder="email"></td>
+                    </tr>
+                    <tr>
+                    <td>Subject</td>
+                    <td>:</td>
+                    <td><input type="text" id="subject" name="subject" placeholder="subject"></td>
+                    </tr>
+                    
+                    <tr>
+                    <td valign="top">Message</td>
+                    <td valign="top">:</td>
+                    <td><textarea name="message" id="message" cols="30" rows="3"></textarea></td>
+                    </tr>
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="submit" id="submit" value="SEND" style="float:right">
+                    &nbsp;
+                    </td>
+                    </tr>
+                </table>
+            </form>
+
+        </div>
+        <!-- end content -->
+        <div class="footer">
+            &copy; Adi Setyawan 2019
+        </div>
+    </div>
+
+</body>
+</html>

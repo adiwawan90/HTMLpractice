@@ -1,0 +1,13 @@
+.group_box {
+    width:1000px;
+    height: 780px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(124, 146, 146, 1);
+}
+.group_box li { float:left; overflow:hidden; margin:10px; height:235px; width:290px; border:1px;}
+.group_box li img { height: 185px; width: 210px; border-radius:5px; display: block;
+    margin: 0px auto;
+    text-align: center;}
+.group_box li h1{color:  black; text-align: center;}

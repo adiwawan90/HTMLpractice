@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {box-sizing:border-box}
+        body {font-family: Verdana,sans-serif;}
+        .mySlides {display:none}
+        /* Slideshow container */
+        .slideshow-container {
+            width: 100%;
+            height: 450px;
+            position: relative;
+            margin: auto;
+        }
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 13px;
+            width: 13px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        .active {
+            background-color: #717171;
+        }
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        @-webkit-keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+        }
+        @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+        }
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 100%) {
+            .text {font-size: 11px}
+        }
+    </style>
+</head>
+<body>
+    <div class="top"></div>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo_baba.png">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="menu"><a href="index.html">Home</a></li>
+                    <li class="menu"><a href="service.html">Service</a></li>
+                    <li class="menu"><a href="gallery.html">Gallery</a></li>
+                    <li class="menu"><a href="kontak.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end menu navbar -->
+        <div class="slider">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/slider_1.png" style="width:100%; height:450px;">
+                    <div class="text">
+                        <div style="text-align:center">
+                            <span class="dot"></span> 
+                            <span class="dot"></span>
+                            <span class="dot"></span>  
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/slider_2.png" style="width:100%; height:450px;">
+                    <div class="text">
+                        <div style="text-align:center">
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/slider_3.png" style="width:100%; height:450px;">
+                    <div class="text">
+                        <div style="text-align:center">
+                            <span class="dot"></span> 
+                            <span class="dot"></span>
+                            <span class="dot"></span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- end of slider -->
+        </div>
+        <div class="content">
+            <h1 id="name-con">About Us</h1>
+            <section class="isi-content">
+                <img src="images/templatemo_image_1.jpg" alt="">
+                <p>
+                    <h2>Lorem Ipsum Dolor Sit Amet</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consectetur alias laboriosam aspernatur, quis aliquid at? Quo vitae labore voluptatem consectetur earum, neque vel nesciunt? Dolor in debitis quasi corrupti.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consectetur alias laboriosam aspernatur, quis aliquid at? Quo vitae labore voluptatem consectetur earum, neque vel nesciunt? Dolor in debitis quasi corrupti. 
+                    <br><br><a href="#">read more</a>
+                </p>
+            </section>
+            <section class="isi-content">
+                <img src="images/templatemo_image_2.jpg" alt="">
+                <p>
+                    <h2>Lorem Ipsum Dolor Sit Amet</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consectetur alias laboriosam aspernatur, quis aliquid at? Quo vitae labore voluptatem consectetur earum, neque vel nesciunt? Dolor in debitis quasi corrupti.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consectetur alias laboriosam aspernatur, quis aliquid at? Quo vitae labore voluptatem consectetur earum, neque vel nesciunt? Dolor in debitis quasi corrupti. 
+                    <br><br><a href="#">read more</a>
+                </p>
+            </section>
+            <section class="isi-content">
+                <img src="images/templatemo_image_3.jpg" alt="">
+                <p>
+                    <h2>Lorem Ipsum Dolor Sit Amet</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consectetur alias laboriosam aspernatur, quis aliquid at? Quo vitae labore voluptatem consectetur earum, neque vel nesciunt? Dolor in debitis quasi corrupti.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consectetur alias laboriosam aspernatur, quis aliquid at? Quo vitae labore voluptatem consectetur earum, neque vel nesciunt? Dolor in debitis quasi corrupti. 
+                    <br><br><a href="#">read more</a>
+                </p>
+            </section>
+            <!-- end all section -->
+        </div>
+        <!-- end of content -->
+        <div class="footer">
+            &copy; Adi Setyawan 2019
+        </div>
+    </div>
+    <!-- end of container -->
+
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex> slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    
+</body>
+</html>
